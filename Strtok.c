@@ -9,8 +9,8 @@ char* my_strtok(char* str, const char* sep, char** str_start, size_t* token_len)
 
 int main(void)
 {
-	char* str_start = NULL;
-	size_t token_len = 0;
+		char* str_start = NULL;
+		size_t token_len = 0;
 		char string[] = "Names:George Joestar,Johnathan Joestar,Joseph Joestar,Jotaro Kujo,Josuke Higashikata,Giorno Giovana";
 		char *header = my_strtok(string, ":",&str_start, &token_len);
 		printf(" Header = '%s'\n ", header);
